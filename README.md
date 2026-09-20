@@ -97,3 +97,9 @@ src/
 Cada vegada que fas `push`, s'executa automàticament `ng build`. 
 Veuràs ✅ o ❌ a la pestanya **Actions** del teu fork. 
 Si surt ❌, mira el log d'errors.
+
+---
+
+## Sessio 01 - Posada en marxa
+
+Entorn preparat: fork clonat, npm install fet i ng serve funcionant a localhost:4200.
