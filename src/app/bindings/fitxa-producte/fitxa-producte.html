@@ -1,0 +1,14 @@
+<article
+  class="fitxa"
+  [class.esgotat]="!teEstoc"
+  [class.destacat]="producte.preu > 500"
+  [class.confirmat]="afegitAlCarret"
+>
+  <h2>{{ producte.nom }}</h2>
+  <p class="preu">{{ producte.preu }} €</p>
+  <p>Estoc: {{ producte.estoc }}</p>
+
+  <button class="btn-compra" [disabled]="afegitAlCarret || !teEstoc" (click)="afegir()">
+    {{ afegitAlCarret ? 'Afegit ✔' : 'Afegir al carret' }}
+  </button>
+</article>

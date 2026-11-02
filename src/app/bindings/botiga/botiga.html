@@ -42,5 +42,11 @@
 
     </div>
 
+    <div class="graella">
+        <h1> REPTE A - [disabled] + [class] amb una sola propietat d'estat </h1>
+        @for (p of productes; track p.id){
+            <app-fitxa-producte [producte]="p" />
+        }
+    </div>
 
 </section>

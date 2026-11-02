@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { ProducteLab, PRODUCTES_LAB } from '../producte-lab';
+import { FitxaProducteComponent } from '../fitxa-producte/fitxa-producte';
 
 @Component({
   selector: 'app-botiga',
-  imports: [],
+  imports: [FitxaProducteComponent],
   templateUrl: './botiga.html',
   styleUrl: './botiga.css',
 })

@@ -1,0 +1,18 @@
+.fitxa {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.esgotat {
+  color: red;
+}
+
+.destacat {
+  font-weight: bold;
+}
+
+.confirmat {
+  border: 2px solid #70AD47;
+  background: #f0fff0;
+}
